@@ -11,6 +11,7 @@ for (let i = 1; i <= 100; i++) {
         const ulElem = document.querySelector('ul')
         const liElem = document.createElement('li')
         ulElem.appendChild(liElem).innerHTML = "FizzBuzz"
+        liElem.classList.add('bg-warning')
     }
 
     else if (fizz) {
@@ -18,6 +19,7 @@ for (let i = 1; i <= 100; i++) {
         const ulElem = document.querySelector('ul')
         const liElem = document.createElement('li')
         ulElem.appendChild(liElem).innerHTML = "Fizz"
+        liElem.classList.add('bg-danger')
     }
 
     else if (buzz) {
@@ -25,6 +27,7 @@ for (let i = 1; i <= 100; i++) {
         const ulElem = document.querySelector('ul')
         const liElem = document.createElement('li')
         ulElem.appendChild(liElem).innerHTML = "Buzz"
+        liElem.classList.add('bg-primary')
     }
 
     else {
@@ -32,5 +35,6 @@ for (let i = 1; i <= 100; i++) {
         const ulElem = document.querySelector('ul')
         const liElem = document.createElement('li')
         ulElem.appendChild(liElem).innerHTML = i
+        liElem.classList.add('fw-bold')
     }
 }
