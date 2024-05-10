@@ -5,3 +5,7 @@
 Prima di partire a scrivere codice poniamoci qualche domanda:
 Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qualcosa di particolare che possiamo usare? -->
 
+Creo un ciclo for che scriva i numeri da 1 a 100
+     se il numero % 3 = 0 console stampa Fizz
+     se il numero % 5 = 0 console stampa Buzz
+     se il numero % 3 = 0 && % 5 = 0 stampa Fizz Buzz
